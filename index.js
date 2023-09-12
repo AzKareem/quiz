@@ -82,7 +82,6 @@ const Questions = [{
 
 ]
 let currQuestion = 0
-const test = 0
 let score = 0
 const number = Questions.length;
 let countOfCorrectAnswer = 0;
