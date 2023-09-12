@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+
+<body>
+<header>
+    <div class="title">
+        <h1>Welcome Traveler!</h1>
+    </div>
+    <hr>
+    <hr>
+</header>
+<main>
+<Section class="anleitung">
+    <p>
+        Bitte wählen Sie eine von den angegebenen Felder aus um das Spiel zu beginnen.
+    </p>
+    <div class="question-number" id="question-number"></div>
+</Section>
+
+    <div class="panel">
+
+        <div class="question" id="ques"></div>
+        <div class="options" id="opt"></div>
+        <div id="wrong"></div>
+        <button onclick="checkAns()" id="btn" >SUBMIT</button>
+
+<div class="firstRound" id="Questions-buttons">
+<!--    <button onclick="loadQues(1)" id="q1">Question 1</button>-->
+<!--    <button onclick="loadQues(2)" id="q2">Question 2</button>-->
+<!--    <button onclick="loadQues(3)" id="q3">Question 3</button>-->
+<!--    <button onclick="loadQues(4)" id="q4">Question 4</button>-->
+<!--    <button onclick="loadQues(5)" id="q5">Question 5</button>-->
+<!--    <button onclick="loadQues(6)" id="q6">Question 6</button>-->
+<!--    <button onclick="loadQues(7)" id="q7">Question 7</button>-->
+<!--    <button onclick="loadQues(8)" id="q8">Question 8</button>-->
+<!--    <button onclick="loadQues(9)" id="q9">Question 9</button>-->
+    </div>
+        <div id="score"></div>
+        <div id="winner"></div>
+        <script src="index.js"></script>
+    </div>
+
+</main>
+<footer>
+    <button class="reset" onclick="resetBtn()" >Reload</button>
+</footer>
+</body>
+</html>
